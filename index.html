@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan Kumar | Portfolio</title>
+    <meta name="description" content="Portfolio of Karan Kumar, a passionate engineering student and cybersecurity enthusiast.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo"></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#certificates">Certification</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. Landing Page / About -->
+    <section id="home" class="home section-padding glass-section relative-section">
+        <!-- Glowing Ambient Orbs for Modern UI -->
+        <div class="ambient-orb orb-1"></div>
+        <div class="ambient-orb orb-2"></div>
+        
+        <div class="container home-container z-index-content">
+            <div class="home-text">
+                <h1 class="main-title fade-up">Hi, I'm <span class="gradient-text">Karan Kumar</span></h1>
+                
+                <div class="role-pills fade-up delay-1">
+                    <span class="role-pill"><i class="fas fa-shield-alt"></i> Security Analyst</span>
+                    <span class="role-pill"><i class="fas fa-server"></i> Backend Developer</span>
+                </div>
+                
+                <div class="about-summary fade-up delay-2">
+                    <p>I am deeply passionate about cybersecurity, network security, and backend development. Currently pursuing my B.Tech in CSE at Lovely Professional University. My goal is to leverage my skills in offensive security and software development to solve real-world problems and enhance digital safety. I am highly adaptable, possess strong problem-solving skills, and enjoy taking on leadership roles.</p>
+                </div>
+
+                <!-- Modern CTAs and Contacts -->
+                <div class="hero-actions fade-up delay-3">
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="home-image fade-up delay-3">
+                <div class="profile-img-container">
+                    <div class="profile-img-inner">
+                        <img src="https://i.postimg.cc/FKTYTpQL/Whats-App-Image-2026-03-24-at-00-41-57.jpg" alt="Karan Kumar" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Skills -->
+    <section id="skills" class="skills section-padding glass-section">
+        <div class="container">
+            <h2 class="section-title fade-up">My <span>Skills</span></h2>
+            <div class="skills-grid-new">
+                <div class="skill-card fade-up">
+                    <h3 class="skill-title">Languages</h3>
+                    <p class="skill-desc">Python, Java, SQL, Spring Boot</p>
+                </div>
+                <div class="skill-card fade-up delay-1">
+                    <h3 class="skill-title">Technical Domains</h3>
+                    <p class="skill-desc">Networking, Network Security, Offensive Security, TCP/IP Protocols</p>
+                </div>
+                <div class="skill-card fade-up delay-2">
+                    <h3 class="skill-title">Tools & Platforms</h3>
+                    <p class="skill-desc">Nmap, Burp Suite, Wireshark, Metasploit, Cisco Packet Tracer, TryHackMe, Hackviser, VirtualBox</p>
+                </div>
+                <div class="skill-card fade-up delay-3">
+                    <h3 class="skill-title">Soft Skills</h3>
+                    <p class="skill-desc">Problem-Solving, Adaptability, Leadership</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Internship / Work Experience -->
+    <section id="experience" class="experience section-padding glass-section">
+        <div class="container">
+            <h2 class="section-title fade-up">Work <span>Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item glass-card fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Open to Opportunities</h3>
+                        <p class="timeline-date">Present</p>
+                        <p>Actively seeking internships and work opportunities to apply my knowledge in cybersecurity, software development, and network security in a professional environment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Projects -->
+    <section id="projects" class="projects section-padding glass-section">
+        <div class="container">
+            <h2 class="section-title fade-up">My <span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card fade-up">
+                    <div class="project-header">
+                        <h3>Employee Management System</h3>
+                        <span class="project-date">Since Dec 2025</span>
+                    </div>
+                    <p class="tech-stack">Java, Spring Boot, Spring Data JPA, REST APIs, MySQL</p>
+                    <ul class="project-details">
+                        <li>Developed a web-based Employee Management System to manage employee records efficiently.</li>
+                        <li>Implemented full CRUD functionality through REST endpoints.</li>
+                        <li>Designed a layered architecture improving modularity and maintainability.</li>
+                        <li>Integrated MySQL database with JPA/Hibernate for persistent data storage.</li>
+                    </ul>
+                </div>
+                <div class="project-card glass-card fade-up delay-1">
+                    <div class="project-header">
+                        <h3>Brute-force Attack Detection Tool</h3>
+                        <span class="project-date">May 2025 – Jun 2025</span>
+                    </div>
+                    <p class="tech-stack">Python</p>
+                    <ul class="project-details">
+                        <li>Developed a security tool to detect brute-force login attempts using pattern analysis of IP, username, and timestamp logs.</li>
+                        <li>Detected suspicious activity and implemented rate-limiting rules.</li>
+                        <li>Reduced manual effort for security administrators by 50% by building log management automation and custom admin controls, improving security efficiency by 30%.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Training -->
+    <section id="training" class="training section-padding glass-section">
+        <div class="container">
+            <h2 class="section-title fade-up">Industrial <span>Training</span></h2>
+            <div class="feature-card glass-card fade-up">
+                <div class="feature-content">
+                    <h3 class="feature-title">Cyber Security Essentials Training</h3>
+                    <p class="feature-desc">Completed hands-on training focusing on network analysis, penetration testing, and practical simulations at Lovely Professional University. Gained experience collecting information to gain access and applied networking concepts through practical simulations in Cisco Packet Tracer.</p>
+                    <div class="feature-tags">
+                        <span>Wireshark</span>
+                        <span>Nmap</span>
+                        <span>Metasploit</span>
+                        <span>Packet Tracer</span>
+                    </div>
+                    <a href="https://i.postimg.cc/DZDxfZ7H/LPU-page-0001.jpg" target="_blank" class="feature-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                </div>
+                <div class="feature-image">
+                    <img src="https://i.postimg.cc/DZDxfZ7H/LPU-page-0001.jpg" alt="Cyber Security Training Certificate">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Certificates -->
+    <section id="certificates" class="certificates section-padding glass-section">
+        <div class="container">
+            <h2 class="section-title fade-up">NPTEL <span>Certification</span></h2>
+            <div class="feature-card glass-card fade-up">
+                <div class="feature-content">
+                    <h3 class="feature-title">Cyber Security and Privacy</h3>
+                    <p class="feature-desc">Successfully completed a comprehensive 12-week NPTEL Online Certification course offered by the Indian Institute of Technology Madras (IIT Madras). Developed foundational and advanced privacy and security knowledge, backed by the Govt. of India Ministry of Education. Achieved a consolidated score of 53%.</p>
+                    <div class="feature-tags">
+                        <span>NPTEL</span>
+                        <span>IIT Madras</span>
+                        <span>Cyber Security</span>
+                        <span>Privacy</span>
+                    </div>
+                    <a href="https://i.postimg.cc/tJnnyRg6/NPTEL-page-0001.jpg" target="_blank" class="feature-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                </div>
+                <div class="feature-image">
+                    <img src="https://i.postimg.cc/tJnnyRg6/NPTEL-page-0001.jpg" alt="NPTEL Cyber Security Certificate">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Achievements -->
+    <section id="achievements" class="achievements section-padding glass-section">
+        <div class="container">
+            <h2 class="section-title fade-up">Achievements & <span>Awards</span></h2>
+            <div style="display: flex; flex-direction: column; gap: 40px;">
+                <div class="feature-card glass-card fade-up">
+                    <div class="feature-content">
+                        <h3 class="feature-title">Winner of The Brainy Bunch</h3>
+                        <p class="feature-desc">Secured the winning position in "The Brainy Bunch," a highly competitive event based on logical skills and problem-solving, standing out among 200+ participating students at Lovely Professional University.</p>
+                        <div class="feature-tags">
+                            <span>Logical Reasoning</span>
+                            <span>Problem Solving</span>
+                            <span>Competition Winner</span>
+                        </div>
+                        <a href="https://i.postimg.cc/ZKRRCgMK/12319884-The-Brainy-Bunch-A-Competitive-event-based-on-logical-skills-page-0001.jpg" target="_blank" class="feature-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                    </div>
+                    <div class="feature-image">
+                        <img src="https://i.postimg.cc/ZKRRCgMK/12319884-The-Brainy-Bunch-A-Competitive-event-based-on-logical-skills-page-0001.jpg" alt="The Brainy Bunch Certificate">
+                    </div>
+                </div>
+                <div class="feature-card glass-card fade-up delay-1">
+                    <div class="feature-content">
+                        <h3 class="feature-title">Patent - Smart Bike Lock</h3>
+                        <p class="feature-desc">Accepted patent for a "Smart Bike Lock with Face Recognition" at Lovely Professional University. An innovative solution enhancing physical security through the integration of modern biometric authentication technologies.</p>
+                        <div class="feature-tags">
+                            <span>Patent</span>
+                            <span>Face Recognition</span>
+                            <span>Hardware Security</span>
+                        </div>
+                        <a href="https://i.postimg.cc/3RFXJ6bp/Screenshot-2026-03-21-164720.png" target="_blank" class="feature-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                    </div>
+                    <div class="feature-image">
+                        <img src="https://i.postimg.cc/3RFXJ6bp/Screenshot-2026-03-21-164720.png" alt="Smart Bike Lock Patent">
+                    </div>
+                </div>
+                <div class="feature-card glass-card fade-up delay-2">
+                    <div class="feature-content">
+                        <h3 class="feature-title">115+ Practical Labs on TryHackMe</h3>
+                        <p class="feature-desc">Successfully solved over 115 hands-on cybersecurity labs on the TryHackMe platform. This achievement demonstrates practical expertise in various aspects of offensive security, network analysis, and vulnerability exploitation.</p>
+                        <div class="feature-tags">
+                            <span>TryHackMe</span>
+                            <span>Cybersecurity Labs</span>
+                            <span>Offensive Security</span>
+                        </div>
+                        <a href="https://tryhackme.com/p/karankumar01" target="_blank" class="feature-link"><i class="fas fa-external-link-alt"></i> View THM Profile</a>
+                    </div>
+                </div>
+                <div class="feature-card glass-card fade-up delay-3">
+                    <div class="feature-content">
+                        <h3 class="feature-title">Hackathon Certificate</h3>
+                        <p class="feature-desc">Showcased skills in problem-solving and rapid development by actively participating in a hackathon event. Built innovative solutions collaboratively under time constraints.</p>
+                        <div class="feature-tags">
+                            <span>Hackathon</span>
+                            <span>Innovation</span>
+                            <span>Teamwork</span>
+                        </div>
+                        <a href="https://i.postimg.cc/W4bMtzVt/certificate-of-hackathon-page-0001.jpg" target="_blank" class="feature-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                    </div>
+                    <div class="feature-image">
+                        <img src="https://i.postimg.cc/W4bMtzVt/certificate-of-hackathon-page-0001.jpg" alt="Hackathon Certificate">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Education -->
+    <section id="education" class="education section-padding glass-section">
+        <div class="container">
+            <h2 class="section-title fade-up">My <span>Education</span></h2>
+            <div class="edu-grid">
+                
+                <div class="edu-card fade-up">
+                    <h3 class="edu-title">Bachelor of Technology – Computer Science</h3>
+                    <h4 class="edu-inst">Lovely Professional University</h4>
+                    <span class="edu-date">2023 – Present</span>
+                    <p class="edu-desc">Pursuing a Computer Science degree with a strong inclination towards <span class="gradient-text"><b>Cybersecurity</b></span> and software-oriented problem solving. Actively applying theoretical concepts through projects, hackathons, and real-world security use cases, with a focus on protecting systems, identifying vulnerabilities, and building secure applications.</p>
+                    <div class="edu-tags">
+                        <span>Data Structures</span>
+                        <span>Algorithms</span>
+                        <span>Security Analyst</span>
+                        <span>Database Systems</span>
+                        <span>Python</span>
+                        <span>Cybersecurity</span>
+                    </div>
+                </div>
+
+                <div class="edu-card fade-up delay-1">
+                    <h3 class="edu-title">Senior Secondary Education (Science – PCM)</h3>
+                    <h4 class="edu-inst">+2 High School, Ranchi</h4>
+                    <span class="edu-date">2021 – 2023</span>
+                    <p class="edu-desc">Built a strong academic foundation through science-based education with emphasis on analytical thinking, logical reasoning, and structured problem-solving. This phase helped develop discipline, consistency, and a curiosity for technology. Percentage: 82%.</p>
+                    <div class="edu-tags">
+                        <span>Mathematics</span>
+                        <span>Physics</span>
+                        <span>Chemistry</span>
+                        <span>Computer Basics</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Resume -->
+    <section id="resume" class="resume section-padding glass-section hidden-section">
+        <div class="container text-center">
+            <h2 class="section-title fade-up">My <span>Resume</span></h2>
+            <p class="fade-up delay-1" style="color: var(--text-muted); margin-bottom: 40px; font-size: 1.1rem;">
+                Download my resume to learn more about my skills, experience, and education.
+            </p>
+            <div class="resume-card glass-card fade-up delay-2" style="max-width: 550px; margin: 0 auto; padding: 40px 30px; display: flex; flex-direction: column; align-items: center; gap: 15px;">
+                <div class="resume-icon-container" style="width: 80px; height: 80px; border: 2px solid rgba(192, 132, 252, 0.3); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; color: #c084fc; margin-bottom: 5px;">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h3 style="font-size: 1.25rem; color: var(--text-main); font-weight: 600; margin-bottom: 0;">Karan_Resume.pdf</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 10px;">PDF Document</p>
+                
+                <a href="https://drive.google.com/uc?export=download&id=1QmchKus_syN3pVYbzn5x9nOaCXcop5as" target="_blank" class="btn btn-primary btn-submit" style="width: 100%; max-width: 300px; padding: 14px 20px; background: #c084fc; box-shadow: 0 5px 15px rgba(192, 132, 252, 0.3); font-size: 1rem; border-radius: 10px; margin-bottom: 15px; display: inline-flex; justify-content: center; align-items: center;">
+                    <i class="fas fa-download" style="margin-right: 8px;"></i> Download Resume
+                </a>
+                
+                <p style="color: var(--text-muted); font-size: 0.85rem; max-width: 400px; line-height: 1.5;">
+                    Click the button above to download my latest resume. Feel free to <a href="#contact" style="color: var(--accent); text-decoration: none; font-weight: 500;">reach out</a> if you have any questions or opportunities.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Contact Section -->
+    <section id="contact" class="contact section-padding glass-section">
+        <div class="container">
+            <div class="contact-content-wrapper fade-up">
+                <div class="contact-left">
+                    <h2 class="contact-title">Get in <span style="color: #c084fc;">Touch</span></h2>
+                    <p class="contact-subtitle">Have a question, collaboration idea, or internship opportunity?<br>Feel free to reach out — I'd love to connect.</p>
+                    <div class="contact-info-list">
+                        <a href="mailto:karanyadavanshi31082003@gmail.com" class="contact-info-item">
+                            <i class="fas fa-envelope"></i> karanyadavanshi31082003@gmail.com
+                        </a>
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-marker-alt"></i> Ranchi, India
+                        </div>
+                        <a href="https://linkedin.com/in/karankumar95" target="_blank" class="contact-info-item">
+                            <i class="fas fa-link"></i> LinkedIn Profile
+                        </a>
+                        <a href="https://github.com/karann95" target="_blank" class="contact-info-item">
+                            <i class="fas fa-laptop"></i> GitHub Profile
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form class="contact-form glass-card" id="contact-form">
+                        <input type="text" name="name" placeholder="name" required class="form-input">
+                        <input type="email" name="email" placeholder="email" required class="form-input">
+                        <input type="text" name="subject" placeholder="Subject" required class="form-input">
+                        <textarea name="message" placeholder="Your Message" required class="form-textarea"></textarea>
+                        
+                        <button type="submit" class="btn-submit" id="submit-btn">Send Message 🚀</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Karan Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "_GeIACf2cehoQv4ve",
+            });
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
